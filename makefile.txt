@@ -1,0 +1,6 @@
+asn: main.o ArrayList.o
+	g++ -o asn main.o ArrayList.o
+main.o: main.cpp
+	g++ -c main.cpp
+ArrayList.o: ArrayList.cpp
+	g++ -c ArrayList.cpp
